@@ -97,8 +97,6 @@ void Error_Handler(void);
 #define DCMI_D3_GPIO_Port GPIOH
 #define OCTOSPIM_P2_IO0_Pin GPIO_PIN_11
 #define OCTOSPIM_P2_IO0_GPIO_Port GPIOI
-#define I2C1_SCL_Pin GPIO_PIN_6
-#define I2C1_SCL_GPIO_Port GPIOB
 #define OCTOSPIM_P2_DQS_Pin GPIO_PIN_15
 #define OCTOSPIM_P2_DQS_GPIO_Port GPIOG
 #define PSRAM_OE_Pin GPIO_PIN_4
@@ -165,8 +163,6 @@ void Error_Handler(void);
 #define uSD_CLK_GPIO_Port GPIOC
 #define uSD_D0_Pin GPIO_PIN_8
 #define uSD_D0_GPIO_Port GPIOC
-#define ARD_14_Pin GPIO_PIN_8
-#define ARD_14_GPIO_Port GPIOG
 #define STMOD_INT_Pin GPIO_PIN_6
 #define STMOD_INT_GPIO_Port GPIOC
 #define PSRAM_A3_Pin GPIO_PIN_3
@@ -175,16 +171,12 @@ void Error_Handler(void);
 #define PSRAM_A4_GPIO_Port GPIOF
 #define PSRAM_A5_Pin GPIO_PIN_5
 #define PSRAM_A5_GPIO_Port GPIOF
-#define I2C1_SDA_Pin GPIO_PIN_13
-#define I2C1_SDA_GPIO_Port GPIOG
 #define PSRAM_A14_Pin GPIO_PIN_4
 #define PSRAM_A14_GPIO_Port GPIOG
 #define PSRAM_A13_Pin GPIO_PIN_3
 #define PSRAM_A13_GPIO_Port GPIOG
 #define PSRAM_A15_Pin GPIO_PIN_5
 #define PSRAM_A15_GPIO_Port GPIOG
-#define ARD_15_Pin GPIO_PIN_7
-#define ARD_15_GPIO_Port GPIOG
 #define DFDATIN3_Pin GPIO_PIN_7
 #define DFDATIN3_GPIO_Port GPIOC
 #define uSD_D1_Pin GPIO_PIN_9
